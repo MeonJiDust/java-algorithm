@@ -45,7 +45,10 @@ public class CardConvRev {
 				
 			}while(cd < 2 || cd > 36);
 			
+			
 			dno = cardConvRev(no, cd, cno);
+			
+			System.out.println("dno:" + dno);
 			
 			System.out.print(cd + "진수로는 ");
 			
@@ -55,6 +58,7 @@ public class CardConvRev {
 			}
 			
 			System.out.println("입니다.");
+			
 			
 			System.out.println("retry?? ");
 			
