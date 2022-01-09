@@ -4,19 +4,18 @@ import java.util.Scanner;
 
 public class Prac06 {
 
-	static int convert(int x, int y, char arr[]) {
+	static int convert(int x, int y, char arr[]) { //어렵당.. 
 		
 		int digits = 0;
+		int result = x;
 		
 		while(true) {
 			
-			int result = x;
-			
-			result /= y;
-			
-			if(result > 0) {
+			if(result != 0) {
 				
-				++digits;
+				digits++;
+				System.out.println("digits: " + digits);
+				result /= y;
 			}else {
 				break;
 			}
@@ -25,11 +24,15 @@ public class Prac06 {
 		int digit = digits;
 		
 		String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		
-		arr[digits--] = dchar.charAt(x % y);
-		
-		System.out.println(arr[digits]);
-		x /= y;
+		do {
+			
+			arr[--digits] = dchar.charAt(x % y);
+			
+			System.out.println(arr[digits]);
+			x /= y;
+			
+		}while(x != 0);
+
 		
 		return digit;
 	}
