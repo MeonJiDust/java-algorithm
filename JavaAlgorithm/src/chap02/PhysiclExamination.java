@@ -2,7 +2,6 @@ package chap02;
 
 import java.util.Scanner;
 
-import chap02.PhysiclExamination.PhyscData;
 
 public class PhysiclExamination {
 
