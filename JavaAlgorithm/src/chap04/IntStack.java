@@ -37,7 +37,7 @@ public class IntStack {
 		if(ptr <= 0)
 			throw new EmptyIntStackException();
 		return stk[--ptr];
-	}
+	} 
 }
 
 
