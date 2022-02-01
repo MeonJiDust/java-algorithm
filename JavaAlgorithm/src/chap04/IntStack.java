@@ -21,7 +21,7 @@ public class IntStack {
 		try {
 			stk = new int[max];
 		}catch (OutOfMemoryError e) {
-			max = 0;
+			max = 0; 
 		}
 	}
 	
