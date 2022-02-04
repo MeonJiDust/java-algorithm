@@ -28,7 +28,7 @@ public class IntStack {
 	public int push(int x) throws OverflowIntStackException{
 		 
 		if(ptr >= max)
-			throw new OverflowIntStackException();
+			throw new OverflowIntStackException(); 
 		return stk[ptr++] = x;
 	}
 	
