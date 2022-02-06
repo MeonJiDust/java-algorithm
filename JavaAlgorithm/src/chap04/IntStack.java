@@ -45,6 +45,15 @@ public class IntStack {
 			throw new EmptyIntStackException();
 		return stk[ptr - 1];
 	}
+	
+	public int indexOf(int x) {
+		
+		for(int i = ptr - 1; i >= 0; i--)
+			
+			if(stk[i] == x)
+				return i;
+		return -1;
+	}
 }
 
 
