@@ -17,7 +17,7 @@ public class Prac04 {
 			
 		}
 	}
-	
+	 
 	public Prac04(int capacity) {
 		
 		
