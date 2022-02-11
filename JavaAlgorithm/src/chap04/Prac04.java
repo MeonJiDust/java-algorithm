@@ -15,7 +15,7 @@ public class Prac04 {
 	public static class OverflowGqueException extends RuntimeException{
 		public OverflowGqueException() {
 			
-		}
+		} 
 	}
 	 
 	public Prac04(int capacity) {
