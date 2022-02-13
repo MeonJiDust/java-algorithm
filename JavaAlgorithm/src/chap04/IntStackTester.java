@@ -40,7 +40,7 @@ public class IntStackTester {
 				break;
 			
 			case 3:
-				try {
+				try { 
 					x = iStack.peek();
 					System.out.println("peek data is " + x);
 				}catch(IntStack.EmptyIntStackException e) {
