@@ -48,7 +48,7 @@ public class IntStackTester {
 				}
 				break;
 				
-			case 4:
+			case 4: 
 				iStack.dump(); 
 				break;
 				
