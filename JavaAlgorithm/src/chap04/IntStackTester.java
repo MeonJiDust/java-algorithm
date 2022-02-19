@@ -41,7 +41,7 @@ public class IntStackTester {
 			
 			case 3:
 				try { 
-					x = iStack.peek();
+					 x = iStack.peek();
 					System.out.println("peek data is " + x);
 				}catch(IntStack.EmptyIntStackException e) {
 					System.out.println("스택이 비어있습니다.");
